@@ -1,0 +1,55 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class DcEngine {
+    - pwmGpio: Gpio;
+    - controlGpio1: Gpio;
+    - controlGpio2: Gpio;
+    + DcEngine(pwmPin: number, controlPin1: number, controlPin2: number)
+    + start(direction: string, speed: number): Promise<void>
+    + stop(): Promise<void>
+}
+
+class LineSensor {
+    - gpio: Gpio;
+    + LineSensor(pin: number)
+    + onDetection(eventHandler: Function): void
+}
+
+class StepperEngine {
+    - gpio1: Gpio;
+    - gpio2: Gpio;
+    - gpio3: Gpio;
+    - gpio4: Gpio;
+    + StepperEngine(pin1: number, pin2: number, pin3: number, pin4: number)
+    + goTo(degrees: number): Promise<void>
+    + reset(): Promise<void>
+}
+
+class ObjectDetector {
+    - labels: string[];
+    - net: Net;
+    + ObjectDetector(devicePort: number)
+    + init(networkConfigKey: string): Promise<void>
+    + start(): void
+    + stop(): void
+    + onDetection(eventHandler: Function): void
+    - detectObjectOnFrame(frame: Mat): DetectedObject[]
+}
+
+interface DetectedObject {
+    + label: string
+    + position: DetectedObjectPosition;
+}
+
+interface DetectedObjectPosition {
+    x: number;
+    y: number;
+}
+
+class ObjectDetectorHelper {
+    
+}
+
+@enduml

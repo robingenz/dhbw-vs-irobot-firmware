@@ -1,0 +1,12 @@
+{
+    "256x192-9": {
+        "folder": "256x192-9",
+        "cfgFile": "yolo-tiny-obj.cfg",
+        "weightsFile": "yolo-tiny-obj_last.weights",
+        "labelsFile": "obj.names",
+        "resolution": {
+            "width": 256,
+            "height": 192
+        }
+    }
+}

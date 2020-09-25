@@ -1,0 +1,15 @@
+main {
+    padding: 16px;
+    overflow: scroll;
+}
+
+#ir-control-card {
+    min-height: unset;
+    min-width: 660px;
+}
+
+#ir-control-card > .mdl-card__actions {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
