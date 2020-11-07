@@ -4,7 +4,7 @@
 
 ## Recordings 📷
 
-<img src="docs/media/irobot.jpg" alt="irobot" width="500"/> <img src="docs/media/irobot-run.gif" alt="irobot-run"/>
+<img src="docs/media/irobot.jpg" alt="irobot" width="450"/> <img src="docs/media/irobot-run.gif" alt="irobot-run"/>
 
 ## Development Setup 💻
 
