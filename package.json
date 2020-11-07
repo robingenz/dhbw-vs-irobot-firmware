@@ -13,7 +13,7 @@
         "type": "git",
         "url": "git+https://github.com/robingenz/dhbw-vs-irobot-firmware.git"
     },
-    "author": "",
+    "author": "Robin Genz <mail@robingenz.dev>",
     "license": "ISC",
     "dependencies": {
         "express": "4.17.1",
