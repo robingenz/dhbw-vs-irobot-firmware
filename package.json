@@ -1,5 +1,5 @@
 {
-    "name": "irobot-core",
+    "name": "dhbw-vs-irobot-firmware",
     "version": "1.0.0",
     "description": "",
     "main": "dist/app.js",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://gitlab.robingenz.de/robingenz/irobot-core.git"
+        "url": "git+https://github.com/robingenz/dhbw-vs-irobot-firmware.git"
     },
     "author": "",
     "license": "ISC",
