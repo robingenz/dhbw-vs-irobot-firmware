@@ -2,12 +2,9 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.112.0/containers/docker-existing-dockerfile
 {
     "name": "docker-node-opencv",
-    "context": "..",
-    "image": "gitlab.robingenz.de:4567/robingenz/docker-node-opencv/node-opencv:latest",
-    "extensions": [
-        "eamodio.gitlens",
-        "esbenp.prettier-vscode",
-        "HookyQR.beautify",
-        "ms-vscode.vscode-typescript-tslint-plugin"
-    ]
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "extensions": ["eamodio.gitlens", "esbenp.prettier-vscode", "HookyQR.beautify", "ms-vscode.vscode-typescript-tslint-plugin"]
 }
