@@ -2,7 +2,11 @@
 
 🤖 The firmware of the "iRobot" robot.
 
-<img src="docs/images/irobot.jpg" alt="irobot" width="500"/>
+## Recordings 📷
+
+|                                                             |                                                         |
+| ----------------------------------------------------------- | ------------------------------------------------------- |
+| <img src="docs/media/irobot.jpg" alt="irobot" width="500"/> | <img src="docs/media/irobot-run.gif" alt="irobot-run"/> |
 
 ## Development Setup 💻
 
